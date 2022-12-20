@@ -18,6 +18,20 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Keita Releases Nexus Repository</name>
+	      <url>http://54.208.53.54:8081/repository/java-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>KeitaTechnologies Snapshot Nexus Repository </name>
+	      <url>http://54.208.53.54:8081/repository/java-sanapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
