@@ -22,7 +22,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Keita Releases Nexus Repository</name>
-	      <url>http://54.208.53.54:8081/repository/java-release/</url>
+	      <url>http://34.205.50.20:8081/repository/ebay-npm-repos/>
 	    </repository>
 	    
 	    <snapshotRepository>
